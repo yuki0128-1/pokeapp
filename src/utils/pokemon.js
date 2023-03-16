@@ -14,5 +14,9 @@ export const getPokemon = (url) => {
       // console.log(data)
       resolve(data)
     });
+    fetch('http://URL', {
+    // ...
+    referrerPolicy: "unsafe_url" 
+});
   })
 }

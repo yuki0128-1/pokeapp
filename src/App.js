@@ -11,6 +11,10 @@ function App() {
   const [nextURL, setNextURL] = useState("");
   const [prevURL, setPrevURL] = useState("");
 
+  fetch('http://pokeapi.co/api/v2/pokemon', {
+    // ...
+    referrerPolicy: "unsafe_url" 
+});
 
   useEffect(() => {
     const fetchPokemonData = async () => {

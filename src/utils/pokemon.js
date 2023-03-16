@@ -14,7 +14,7 @@ export const getPokemon = (url) => {
       // console.log(data)
       resolve(data)
     });
-    fetch('http://URL', {
+    fetch('http://pokeapi.co/api/v2/pokemon', {
     // ...
     referrerPolicy: "unsafe_url" 
 });

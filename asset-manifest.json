@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pokeapp/static/css/main.28b82945.css",
-    "main.js": "/pokeapp/static/js/main.58bc69af.js",
+    "main.js": "/pokeapp/static/js/main.c5059632.js",
     "index.html": "/pokeapp/index.html",
     "main.28b82945.css.map": "/pokeapp/static/css/main.28b82945.css.map",
-    "main.58bc69af.js.map": "/pokeapp/static/js/main.58bc69af.js.map"
+    "main.c5059632.js.map": "/pokeapp/static/js/main.c5059632.js.map"
   },
   "entrypoints": [
     "static/css/main.28b82945.css",
-    "static/js/main.58bc69af.js"
+    "static/js/main.c5059632.js"
   ]
 }

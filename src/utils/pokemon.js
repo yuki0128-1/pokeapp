@@ -16,8 +16,3 @@ export const getPokemon = (url) => {
       });
   });
 };
-
-fetch("http://pokeapi.co/api/v2/pokemon/", {
-  // ...
-  referrerPolicy: "unsafe_url",
-});

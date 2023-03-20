@@ -1,23 +1,23 @@
 export const getAllPokemon = (url) => {
   return new Promise((resolve, reject) => {
     fetch(url)
-    .then((res) => res.json())
-    .then((data) => resolve(data));
+      .then((res) => res.json())
+      .then((data) => resolve(data));
   });
 };
 
 export const getPokemon = (url) => {
   return new Promise((resolve, reject) => {
     fetch(url)
-    .then((res) => res.json())
-    .then((data) => {
-      // console.log(data)
-      resolve(data)
-    });
-  })
-}
+      .then((res) => res.json())
+      .then((data) => {
+        // console.log(data)
+        resolve(data);
+      });
+  });
+};
 
-fetch('http://pokeapi.co/api/v2/pokemon', {
+fetch("http://pokeapi.co/api/v2/pokemon/", {
   // ...
-  referrerPolicy: "unsafe_url" 
+  referrerPolicy: "unsafe_url",
 });

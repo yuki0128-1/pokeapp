@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import { getAllPokemon, getPokemon } from './utils/pokemon.js';
 
 function App() {
-  const initialURL = "http://pokeapi.co/api/v2/pokemon/";
+  const initialURL = "https://pokeapi.co/api/v2/pokemon/";
   const [loading, setLoading] = useState(true);
   const [pokemonData, setPokemonData] = useState([]);
   const [nextURL, setNextURL] = useState("");
